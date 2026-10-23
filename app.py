@@ -28,9 +28,9 @@ def main():
         opcao = input("\nEscolha uma opção: ")
 
         if opcao == "1":
-            print("\n[Funcionalidade de adicionar em breve...]")
+            adicionar_tarefa(tarefas)
         elif opcao == "2":
-            print("\n[Funcionalidade de listar em breve...]")
+            listar_tarefas(tarefas)
         elif opcao == "3":
             print("\nSaindo do programa")
             break
