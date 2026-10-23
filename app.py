@@ -19,6 +19,7 @@ def listar_tarefas(tarefas):
         print("\nSuas tarefas:")
         for i, tarefa in enumerate(tarefas, start=1):
             print(f"{i}. {tarefa}")
+        print("\n")
 
 def main():
     tarefas = []   # Lista aonde iremos guardar as tarefas
